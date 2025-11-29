@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SPIFFS File Server</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			text-align: center;
+			margin: 0;
+			padding: 0;
+		}
+		h1 {
+			margin-top: 50px;
+			font-size: 36px;
+			color: #333;
+		}
+		p {
+			font-size: 24px;
+			color: #666;
+			margin-top: 20px;
+			margin-bottom: 50px;
+		}
+		a {
+			display: inline-block;
+			padding: 10px 20px;
+			background-color: #4CAF50;
+			color: white;
+			text-decoration: none;
+			border-radius: 5px;
+			font-size: 18px;
+			margin-top: 50px;
+		}
+	</style>
+</head>
+<body>
+	<h1>SPIFFS File Server</h1>
+	<p>This is a simple file server that serves files from the SPIFFS (SPI Flash File System) of the ESP8266. You can upload files to the SPIFFS using the Arduino IDE or any other tool that can write to the SPIFFS. The files will be available on the file server at the following URL: <a href="http://192.168.4.1/files">http://192.168.4.1/files</a></p>
+	<p>To view the files, simply navigate to the URL in your web browser. You can also download the files using the "Save As" option in your browser.</p>
+	<p>Note: The file server only serves files from the SPIFFS. It does not serve files from the SD card or any other storage device.</p>
+</body>
